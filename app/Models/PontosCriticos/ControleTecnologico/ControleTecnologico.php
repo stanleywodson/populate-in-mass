@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\PontosCriticos\PlanoTrabalho;
+namespace App\Models\PontosCriticos\ControleTecnologico;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -18,6 +18,6 @@ class ControleTecnologico extends Model
 
     public function controleTecnologicoDados()
     {
-        return $this->hasOne(PlanoTrabalhoDados::class, 'id_controle_tecnologico', 'cod_controle_tecnologico');
+        return $this->hasOne(ControleTecnologico::class, 'id_controle_tecnologico', 'cod_controle_tecnologico');
     }
 }

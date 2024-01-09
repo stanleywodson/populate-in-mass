@@ -2,7 +2,7 @@
 
 namespace Database\Seeders\PontosCriticos;
 
-use App\Models\PontosCriticos\PlanoTrabalho\PlanoTrabalho;
+use App\Models\PontosCriticos\ControleTecnologico\ControleTecnologico;
 use Illuminate\Database\Seeder;
 
 class ControleTecnologicoSeeder extends Seeder
@@ -18,7 +18,7 @@ class ControleTecnologicoSeeder extends Seeder
 
             $array = ['id_contrato_execucao' => $contrato];
 
-            PlanoTrabalho::factory(1)
+            ControleTecnologico::factory(1)
                 ->hasControleTecnologicoDados(1, $array)
                 ->create();
         }

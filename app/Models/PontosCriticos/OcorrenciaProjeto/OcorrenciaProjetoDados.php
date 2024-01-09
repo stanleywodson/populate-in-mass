@@ -17,7 +17,7 @@ class OcorrenciaProjetoDados extends Model
 
     public function ocorrenciaProjeto()
     {
-        return $this->belongsTo(OrdemServicos::class, 'id_ocorrencia_projeto', 'cod_ocorrencia_projeto');
+        return $this->belongsTo(OcorrenciaProjeto::class, 'id_ocorrencia_projeto', 'cod_ocorrencia_projeto');
     }
 
 }

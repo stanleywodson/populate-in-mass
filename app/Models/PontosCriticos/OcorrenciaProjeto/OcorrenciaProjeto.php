@@ -18,6 +18,6 @@ class OcorrenciaProjeto extends Model
 
     public function ocorrenciaProjetoDados()
     {
-        return $this->hasOne(OrdemServicosDados::class, 'id_ocorrencia_projeto', 'cod_ocorrencia_projeto');
+        return $this->hasOne(OcorrenciaProjetoDados::class, 'id_ocorrencia_projeto', 'cod_ocorrencia_projeto');
     }
 }

@@ -28,7 +28,7 @@ class ResumoMobilizacao extends Model
     }
     public function instalacao()
     {
-        return $this->hasOne(Endereco::class, 'id_resumo_mobilizacao', 'cod_resumo_mobilizacao');
+        return $this->hasOne(Instalacao::class, 'id_resumo_mobilizacao', 'cod_resumo_mobilizacao');
     }
 
     public function equipes()

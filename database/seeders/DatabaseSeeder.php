@@ -11,6 +11,8 @@ use Database\Seeders\PontosCriticos\MapaSituacaoSeeder;
 use Database\Seeders\PontosCriticos\MsEquipamentoSeeder;
 use Database\Seeders\PontosCriticos\MsEquipeSeeder;
 use Database\Seeders\PontosCriticos\MsMobilizacaoSeeder;
+use Database\Seeders\PontosCriticos\MsOrdemServicoSeeder;
+use Database\Seeders\PontosCriticos\OcorrenciaProjetoSeeder;
 use Database\Seeders\PontosCriticos\OrdemServicosSeeder;
 use Database\Seeders\PontosCriticos\RelatorioFotograficoSeeder;
 use Database\Seeders\PontosCriticos\ResumoMobilizacaoSeeder;
@@ -31,7 +33,7 @@ class DatabaseSeeder extends Seeder
             //PONTOS CRITICOS-------------------
            ApresentacaoSeeder::class,
 
-           //MOBILIZAÇÃO SUPERVISORA
+           //mobilazão supervisora
            MsOrdemServicoSeeder::class,
            MsEquipamentoSeeder::class,
            MsEquipeSeeder::class,
@@ -40,7 +42,7 @@ class DatabaseSeeder extends Seeder
            MapaSituacaoSeeder::class,
            OcorrenciaProjetoSeeder::class,
            ServicosExecutadosSeeder::class,
-           PlanoTrabalhoSeeder::class,
+        //    PlanoTrabalhoSeeder::class,
            RelatorioFotograficoSeeder::class,
            TermoEncerramentoSeeder::class,
            AnexoSeeder::class,

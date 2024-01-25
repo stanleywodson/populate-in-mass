@@ -20,7 +20,7 @@ class EquipeFactory extends Factory
             'id_mobilizacao' => 1,
             'nome_funcionario' => fake()->name(),
             'cpf' => 45623467866,//fake()->cpf(false),
-            'funcao' => fake()->jobTitle(),
+            'funcao' => fake()->jobTitle,
             'frente_servico' => fake()->title(),
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')

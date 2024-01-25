@@ -4,9 +4,6 @@ namespace Database\Factories\PontosCriticos\ResumoMobilizacao;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\ResumoMobilizacao\Endereco>
- */
 class InstalacaoFactory extends Factory
 {
     /**

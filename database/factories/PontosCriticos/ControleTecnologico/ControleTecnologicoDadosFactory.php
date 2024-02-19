@@ -24,7 +24,7 @@ class ControleTecnologicoDadosFactory extends Factory
             'justificativa_explicacao' => fake()->text(3000),
             'nome_original_arquivo_elemento' => fake()->name(),
             'novo_nome_arquivo_elemento' => fake()->name(),
-            'caminho_arquivo_elemento' => 'uploads/pontoscriticos/anexos/'.$arquivo.'.pdf',
+            'caminho_arquivo_elemento' => 'uploads/populate_mass/'.$arquivo.'.pdf',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

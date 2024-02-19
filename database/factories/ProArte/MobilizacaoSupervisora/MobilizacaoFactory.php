@@ -24,7 +24,7 @@ class MobilizacaoFactory extends Factory
             'instalacao' => fake()->text(4000),
             'nome_original_arquivo_curvas' => fake()->name(),
             'novo_nome_arquivo_curvas' => fake()->name(),
-            'caminho_arquivo_curvas' => 'uploads/pontoscriticos/anexos/' . $arquivo . '.pdf',
+            'caminho_arquivo_curvas' => 'uploads/populate_mass/' . $arquivo . '.pdf',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

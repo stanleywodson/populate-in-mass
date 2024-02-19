@@ -1,14 +1,14 @@
 <?php
 
-namespace Database\Factories\PontosCriticos\MapaSituacao;
+namespace Database\Factories\PontosCriticos\ControlePluviometrico;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Arr;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\MapaSituacao\ControlePluviometricoDados>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\ControlePluviometrico\ControlePluviometricoDados>
  */
-class MapaSituacaoDadosFactory extends Factory
+class ControlePluviometricoDadosFactory extends Factory
 {
     /**
      * Define the model's default state.

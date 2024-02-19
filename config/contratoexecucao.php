@@ -8,7 +8,7 @@ return [
 //        90, 86, 92, 93, 88, 89, 125, 123
 //    ], usando o contrato do pato
     'pontoscriticos' => [
-        876
+        1008
     ],
 
     // contrato 1

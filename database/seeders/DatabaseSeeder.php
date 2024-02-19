@@ -7,6 +7,7 @@ use App\Models\ProArte\PlanoTrabalho\PlanoTrabalho;
 use Database\Seeders\PontosCriticos\AnexoSeeder;
 use Database\Seeders\PontosCriticos\ApresentacaoSeeder;
 use Database\Seeders\PontosCriticos\ControlePluviometricoSeeder;
+use Database\Seeders\PontosCriticos\ControleTecnologicoSeeder;
 use Database\Seeders\PontosCriticos\PlanoTrabalhoSeeder;
 use Database\Seeders\PontosCriticos\MapaSituacaoSeeder;
 use Database\Seeders\PontosCriticos\MsEquipamentoSeeder;
@@ -42,6 +43,7 @@ class DatabaseSeeder extends Seeder
            ResumoMobilizacaoSeeder::class,
            MapaSituacaoSeeder::class,
            ControlePluviometricoSeeder::class,
+           ControleTecnologicoSeeder::class,
            OcorrenciaProjetoSeeder::class,
            ServicosExecutadosSeeder::class,
         //    PlanoTrabalhoSeeder::class,

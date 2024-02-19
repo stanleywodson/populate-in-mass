@@ -5,7 +5,7 @@ namespace Database\Factories\PontosCriticos\ControleTecnologico;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\PlanoTrabalho\PlanoTrabalho>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\ControleTecnologico\ControleTecnologico>
  */
 class ControleTecnologicoFactory extends Factory
 {

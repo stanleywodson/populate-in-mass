@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Arr;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\PlanoTrabalho\PlanoTrabalhoDados>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\PontosCriticos\ControleTecnologico\ControleTecnologico>
  */
 class ControleTecnologicoDadosFactory extends Factory
 {

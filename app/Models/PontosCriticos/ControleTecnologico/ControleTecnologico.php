@@ -18,6 +18,6 @@ class ControleTecnologico extends Model
 
     public function controleTecnologicoDados()
     {
-        return $this->hasOne(ControleTecnologico::class, 'id_controle_tecnologico', 'cod_controle_tecnologico');
+        return $this->hasOne(ControleTecnologicoDados::class, 'id_controle_tecnologico', 'cod_controle_tecnologico');
     }
 }

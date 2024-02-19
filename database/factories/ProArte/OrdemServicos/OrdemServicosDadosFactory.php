@@ -23,7 +23,7 @@ class OrdemServicosDadosFactory extends Factory
             'id_contrato_execucao' => 36,
             'nome_original_arquivo' => fake()->name(),
             'novo_nome_arquivo' => fake()->name(),
-            'caminho_arquivo' => 'uploads/pontoscriticos/anexos/'.$arquivo.'.pdf',
+            'caminho_arquivo' => 'uploads/populate_mass/'.$arquivo.'.pdf',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

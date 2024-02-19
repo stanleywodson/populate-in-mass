@@ -42,15 +42,15 @@ class NaoConformidadeDadosFactory extends Factory
 
             'nome_original_arquivo_antes' => fake()->name(),
             'novo_nome_arquivo_antes' => fake()->name(),
-            'caminho_arquivo_antes' => 'uploads/pontoscriticos/anexos/'.$arquivo1.'.pdf',
+            'caminho_arquivo_antes' => 'uploads/populate_mass/'.$arquivo1.'.pdf',
 
             'nome_original_arquivo_durante' => fake()->name(),
             'novo_nome_arquivo_durante' => fake()->name(),
-            'caminho_arquivo_durante' => 'uploads/pontoscriticos/anexos/'.$arquivo1.'.pdf',
+            'caminho_arquivo_durante' => 'uploads/populate_mass/'.$arquivo1.'.pdf',
 
             'nome_original_arquivo_depois' => fake()->name(),
             'novo_nome_arquivo_depois' => fake()->name(),
-            'caminho_arquivo_depois' => 'uploads/pontoscriticos/anexos/'.$arquivo1.'.pdf',
+            'caminho_arquivo_depois' => 'uploads/populate_mass/'.$arquivo1.'.pdf',
 
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s'),

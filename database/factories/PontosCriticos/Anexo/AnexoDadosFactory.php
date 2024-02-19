@@ -18,16 +18,17 @@ class AnexoDadosFactory extends Factory
     public function definition(): array
     {
 
-        $arquivo = Arr::random(['arquivo1', 'arquivo2','arquivo3','arquivo4','arquivo5','arquivo6']);
+        $arquivo = Arr::random(['arquivo1', 'arquivo2', 'arquivo3', 'arquivo4', 'arquivo5', 'arquivo6']);
+
         return [
-//            'id_anexo',
+            //            'id_anexo',
             'id_contrato_execucao' => 36,
             'id_documento_tipo_anexo' => 1,
             'vinculo' => 'CONTRATO',
             'informacao_complementar' => fake()->text(1000),
             'nome_original_arquivo' => fake()->name(),
             'novo_nome_arquivo' => fake()->name(),
-            'caminho_arquivo' => 'uploads/pontoscriticos/anexos/'.$arquivo.'.pdf',
+            'caminho_arquivo' => 'uploads/populate_mass/' . $arquivo . '.pdf',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

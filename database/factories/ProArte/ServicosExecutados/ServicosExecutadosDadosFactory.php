@@ -28,13 +28,13 @@ class ServicosExecutadosDadosFactory extends Factory
             'tratativa' => fake()->text(2000),
             'nome_original_arquivo_crono_fisico' => fake()->name(),
             'novo_nome_arquivo_crono_fisico' => fake()->name(),
-            'caminho_arquivo_crono_fisico' => 'uploads/pontoscriticos/anexos/'.$arquivo1.'.pdf',
+            'caminho_arquivo_crono_fisico' => 'uploads/populate_mass/'.$arquivo1.'.pdf',
             'nome_original_arquivo_crono_finan' => fake()->name(),
             'novo_nome_arquivo_crono_finan' => fake()->name(),
-            'caminho_arquivo_crono_finan' => 'uploads/pontoscriticos/anexos/'.$arquivo2.'.pdf',
+            'caminho_arquivo_crono_finan' => 'uploads/populate_mass/'.$arquivo2.'.pdf',
             'nome_original_arquivo_curvas' => fake()->name(),
             'novo_nome_arquivo_crono_curvas' => fake()->name(),
-            'caminho_arquivo_crono_curvas' => 'uploads/pontoscriticos/anexos/'.$arquivo3.'.pdf',
+            'caminho_arquivo_crono_curvas' => 'uploads/populate_mass/'.$arquivo3.'.pdf',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

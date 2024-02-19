@@ -17,13 +17,13 @@ class OrdemServicoFactory extends Factory
      */
     public function definition(): array
     {
-        $arquivo = Arr::random(['arquivo1', 'arquivo2', 'arquivo3', 'arquivo4', 'arquivo5', 'arquivo6']);
+        $arquivo = Arr::random(['arquivo11', 'arquivo12', 'arquivo13', 'arquivo14', 'arquivo15']);
 
         return [
             'id_rm' => 1,
             'nome_original_arquivo_os' => fake()->name(),
             'novo_nome_arquivo_os' => fake()->name(),
-            'caminho_arquivo_os' => 'uploads/pontoscriticos/anexos/' . $arquivo . '.pdf',
+            'caminho_arquivo_os' => 'uploads/populate_mass/' . $arquivo . '.xlsx',
             'id_usuario' => 338,
             'data_cadastro' => date('Y-m-d\TH:i:s')
         ];

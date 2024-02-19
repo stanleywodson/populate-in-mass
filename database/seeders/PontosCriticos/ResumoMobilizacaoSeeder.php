@@ -18,6 +18,7 @@ class ResumoMobilizacaoSeeder extends Seeder
 
         $equipe = collect()->range(10, 50)->all();
         $equipamento = collect()->range(10, 100)->all();
+        
 
         foreach ($contratoExecucao as $contrato) {
 
